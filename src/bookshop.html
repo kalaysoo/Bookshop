@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/styles/base1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,700&display=swap" rel="stylesheet">
+
+<title>Bookshop</title>
+ 
+</head>
+<body>
+    <header class="header">
+        <div class="fixed-container">
+            <div class="menu-container">
+            <div class="logo">Bookshop</div>
+            <nav class="header-menu">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">BOOKS</a></li>
+                    <li class="menu-item"><a href="#">AUDIOBOOKS</a></li>
+                    <li class="menu-item"><a href="#">STATIONERY & GIFTS</a></li>
+                    <li class="menu-item"><a href="#">BLOG</a></li>
+                </ul>
+                <div class="menubutton">
+                  <span class="menubutton__line"></span>
+                </div>
+            </nav>
+            <nav class="mobile_nav">
+              <div class="mobile_nav-links">
+                <a id="mob-nav-links1" href="#" class="mobile_nav-link"
+                  ><img src="../src/img/user.svg"></a
+                >
+                <a id="mob-nav-links2" href="#" class="mobile_nav-link"
+                  ><img src="../src/img/search.svg"></a
+                >
+                <a
+                  id="mob-nav-links3"
+                  href="#"
+                  class="mobile_nav-link"
+                  ><img src="../src/img/shop bag.svg"></a
+                >
+                <a
+                  id="mob-nav-links4"
+                  href="#"
+                  class="mobile_nav-link"
+                  >BLOG</a
+                >
+              </div>
+              <ul class="nav-footer"></ul>
+            </nav>
+            
+        <div class="icons">
+
+            <button class="img-icons"><img src="../src/img/user.svg"></button>
+            <button class="img-icons"><img src="../src/img/search.svg"></button>
+            <button class="img-icons"><img src="../src/img/shop bag.svg">
+            <div id="cart">
+              <div class="circle">0</div>
+            </div>
+            </button>
+          </div>
+        </div>
+        </div>
+    </div>
+  </header>
+  <main>
+    
+  </main>
+  <section class="main-section">
+    <div class="fixed-container">
+        <div class="main-container">
+            <div class="pic">
+                <div class="slider">
+                    <img src="../src/img/banner.jpg"  id="black" class="active" alt="banner" />
+                    <img src="../src/img/banner 2.jpg" class="top" alt="banner 2" />
+                    <img src="../src/img/banner 3.jpg" class="change" alt="banner 3" />
+                  </div>
+                  
+                  <div class="purplepink"><a href="#"><img src="../src/img/purple.jpg" class="purple" width="149px" height="204px" alt=""></a>
+                    <a href="#"><img src="../src/img/pink.jpg" class="pink" width="158px" height="337px" alt=""></a></div>  
+                </div>
+                <div class="dots">
+                    <div class="dot active" onclick="showSlide(0)"></div>
+                    <div class="dot" onclick="showSlide(1)"></div>
+                    <div class="dot" onclick="showSlide(2)"></div>
+            </div>
+            
+            </div>       
+         </div>
+</section>
+
+<section class="book-section">
+    <div class="book-area">
+        <nav class="book-menu">
+          <ul class="menu-navigation">
+            <li class="menu-navigation_item active_item" data-name="Architecture">
+                Architecture
+              </li>
+              <li class="menu-navigation_item" data-name="Art">Art & Fashion</li>
+              <li class="menu-navigation_item" data-name="Biography&Autobiography">Biography</li>
+              <li class="menu-navigation_item" data-name="Business">Business</li>
+              <li class="menu-navigation_item" data-name="Crafts&Hobbies">Crafts & Hobbies</li>
+              <li class="menu-navigation_item" data-name="Drama">Drama</li>
+              <li class="menu-navigation_item" data-name="Fiction">Fiction</li>
+              <li class="menu-navigation_item" data-name="Cooking">Food & Drink</li>
+              <li class="menu-navigation_item" data-name="Health&Fitness">Health & Wellbeing</li>
+              <li class="menu-navigation_item" data-name="History">History & Politics</li>
+              <li class="menu-navigation_item" data-name="Humor">Humor</li>
+              <li class="menu-navigation_item" data-name="Poetry">Poetry</li>
+              <li class="menu-navigation_item" data-name="Psychology">Psychology</li>
+              <li class="menu-navigation_item" data-name="Science">Science</li>
+              <li class="menu-navigation_item" data-name="Technology">Technology</li>
+              <li class="menu-navigation_item" data-name="Travel">Travel & Maps</li>
+          </ul>
+        </nav>
+
+      <div class="books"></div>
+      
+    </div>
+    <div class="load-more">
+      <button class="load-more-button">Load more</button>
+    </div>
+
+    <script src="../dist/main.js"> </script>
+</body>
+</html>

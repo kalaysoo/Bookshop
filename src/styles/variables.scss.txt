@@ -1,0 +1,136 @@
+$purple: rgba(76, 61, 178, 1);
+$white: white;
+$black:black;
+$red:red;
+$green: green;
+$green: #5b6e80;
+@media screen and (max-width: 768px) {
+    .header-menu {
+     margin-left: 210px;
+    }
+    .logo {
+     display: none;
+    }
+    .icons {
+     display: none;
+    }
+    #black {
+     margin-left: -42px;
+     margin-top: -3px;
+     width: 624px;
+     height: 418px;
+    }
+    .change {
+     width: 575px;
+     height: 352px;
+     margin-left: -2px;
+     margin-top: 28px;
+   }
+   
+   .top {
+     width: 579px;
+     height: 347px;
+     margin-left: -9px;
+     margin-top: 26px;
+     
+   }
+   .pic {
+     display: block;
+   }
+   .purple {
+   display: none;
+   }
+   .pink {
+   display:none
+   }
+   .slider {
+     margin-left: 92px;
+     margin-top: 7px;
+     width: max-content;
+     height: 491px;
+   }
+   .book-area {
+     padding-top: 0px;
+     display: flex;
+   }
+   .img-icons {
+    display: none; 
+   }
+   .menubutton {
+     display: block;
+     width: 22px;
+     height: 16px;
+     margin-left: 438px;
+     margin-top: -9px;
+     cursor: pointer;
+     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+   }
+   
+   .menubutton__line,
+   .menubutton__line:after,
+   .menubutton__line:before {
+     border-radius: 9999px;
+     width: 22px;
+     height: 2px;
+   }
+   
+   .menubutton__line {
+     display: block;
+     position: relative;
+     transform: translateY(7px);
+     background: $green;
+     background-color: $green;
+   }
+   
+   .menubutton__line:after,
+   .menubutton__line:before {
+     content: "";
+     position: absolute;
+     right: 0;
+     background: $green;
+     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+   }
+   
+   .menubutton__line:before {
+     width: 20px;
+     bottom: 7px;
+   }
+   .menubutton__line:after {
+     width: 14px;
+     top: 7px;
+   }
+   
+   .menubutton__line:after,
+   .menubutton__line:before {
+     content: "";
+     position: absolute;
+     right: 0;
+     background: $green;
+     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+   }
+   
+   }
+   @media screen and (max-width: 393px) {
+   .dots {
+     margin-top: -91px;
+     margin-left: 269px;
+   }
+   .menu {
+     display: -webkit-inline-box;
+   }
+   .change {
+     width: 575px;
+     height: 352px;
+     margin-left: -2px;
+     margin-top: 28px;
+   }
+   
+   .top {
+     width: 579px;
+     height: 347px;
+     margin-left: -9px;
+     margin-top: 26px;
+     
+   
+   }
+   }
